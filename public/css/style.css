@@ -1,0 +1,41 @@
+    body {
+    text-align: center;
+   }
+   .board {
+    margin: auto;
+    width: 80%;
+   }
+   .board button {
+    min-height: 150px;
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 3em;
+    background-color: thistle;
+   }
+   .header__text{
+       color: wheat;
+   }
+   #messages{
+       color: wheat;
+   }
+   #try{
+       margin-bottom: 10px;
+       color: wheat;
+   }
+   #clearLS{
+       padding: 10px 20px;
+       background-color: white;
+       border: 1px solid antiquewhite;
+       cursor: pointer;
+       color: wheat;
+   }
+   .new_game{
+       padding: 10px 20px;
+       border: 1px solid antiquewhite;
+       text-decoration: none;
+       color: wheat;
+   }

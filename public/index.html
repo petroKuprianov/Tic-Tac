@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tic Tac</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="header__text"> Your symbol <div id="symb">waiting...</div></div>
+    <div class="board">
+      <button id="a0"></button>
+      <button id="a1"></button>
+      <button id="a2"></button>
+      <button id="b0"></button>
+      <button id="b1"></button>
+      <button id="b2"></button>
+      <button id="c0"></button>
+      <button id="c1"></button>
+      <button id="c2"></button>
+    </div>
+    <div id="messages">Waiting for opponent to join...</div>
+    <button  id="clearLS">Clear History</button>
+    <div class="header__text">Score -  <div id="try">0</div></div>
+    <a href="index.html" class="new_game">New Game</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+    <script  src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="./js/script.js" defer>
+    </script>
+  </body>
+</html>
