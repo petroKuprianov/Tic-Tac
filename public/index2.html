@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tic Tac</title>
+</head>
+<body>
+    <div id="game-krestiki-noliki">
+        <div class="game board">
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+            <button href="#" class="item"></button>
+        </div>
+        <div id="show__score"></div>
+            <div class="win">
+             <h2>You win!</h2>
+             <div class="intro">
+               <a href="#" class="close">х</a>
+             </div>
+            </div>
+            <div class="lost">
+             <h2>Computer win</h2>
+             <div class="intro">      
+               <a href="#" class="close">х</a>
+            </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+    <script  src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="./js/scriptComp.js"></script>
+</body>
+</html>
